@@ -17,7 +17,7 @@ services:
       - equiplano-network
       
   equiplano-backservice:
-    image: equiplano-backend
+    image: isedsonadriano/equiplanobackend:latest
     ports:
       - "8085:8085"
     networks:
